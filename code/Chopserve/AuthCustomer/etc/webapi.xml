@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<routes>
+    <route url="/V1/chopserve/login" method="POST">
+        <service class="Chopserve\AuthCustomer\Api\OtpRepositoryInterface" method="login"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/chopserve/otp" method="POST">
+        <service class="Chopserve\AuthCustomer\Api\OtpRepositoryInterface" method="checkOtp"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/hatsun/verifyNumber" method="POST">
+        <service class="Chopserve\AuthCustomer\Api\OtpRepositoryInterface" method="verifyNumber"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/chopserve/resend-or-update" method="POST">
+        <service class="Chopserve\AuthCustomer\Api\OtpRepositoryInterface" method="updatePhoneNumber" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/create-customer" method="POST">
+        <service class="Chopserve\AuthCustomer\Api\OtpRepositoryInterface" method="createCustomer" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

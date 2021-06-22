@@ -1,0 +1,17 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+	<head>
+        <title>email</title>
+    </head>
+
+    <body>
+        <referenceContainer name="sidebar.main">
+            <block class="Chopserve\Email\Block\Index\Sidebar" name="email_index_sidebar" before="-" template="Chopserve_Email::email_index_sidebar.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Chopserve\Email\Block\Index\Index" name="email_index_index" template="Chopserve_Email::email_index_index.phtml"/>
+        </referenceContainer>
+
+    </body>
+</page>

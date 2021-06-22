@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- <route url="/V1/source-mapping/getList" method="GET">
+        <service class="Chopserve\SourceMapping\Api\MappingRepositoryInterface" method="getList"></service>
+        <resources>
+           <resource ref="Chopserve_SourceMapping::sourcemapping" />
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+    <route url="/V1/source-mapping" method="GET">
+        <service class="Chopserve\SourceMapping\Api\MappingRepositoryInterface" method="get"></service>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route> -->
+
+    <route url="/V1/customization" method="POST">
+        <service class="Chopserve\Customization\Api\CustomizationRepositoryInterface" method="save"/>
+        <resources>
+<!--            <resource ref="anonymous" />-->
+            <resource ref="self"/>
+        </resources>
+    </route>
+</routes>

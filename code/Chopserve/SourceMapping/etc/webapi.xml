@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<routes>
+    <route url="/V1/source-mapping/getList" method="GET">
+        <service class="Chopserve\SourceMapping\Api\MappingRepositoryInterface" method="getList"></service>
+        <resources>
+            <resource ref="Chopserve_SourceMapping::sourcemapping" />
+        </resources>
+    </route>
+    <route url="/V1/source-mapping" method="GET">
+        <service class="Chopserve\SourceMapping\Api\MappingRepositoryInterface" method="get"></service>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+
+    <route url="/V1/source-mapping/get-source" method="GET">
+        <service class="Chopserve\SourceMapping\Api\MappingRepositoryInterface" method="getSourcePinCode"></service>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+</routes>

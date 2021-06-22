@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+    <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+        <body>
+            <referenceBlock name="footer_links">
+                <block class="Chopserve\SourceMapping\Block\Mapping\Link" name="chopserve-source-mapping-mapping-link">
+                    <arguments>
+                        <argument name="label" xsi:type="string" translate="true">Source Mapping</argument>
+                        <argument name="attributes" xsi:type="array">
+                            <item name="data-action" xsi:type="string">mapping</item>
+                        </argument>
+                    </arguments>
+                </block>
+            </referenceBlock>
+        </body>
+    </page>

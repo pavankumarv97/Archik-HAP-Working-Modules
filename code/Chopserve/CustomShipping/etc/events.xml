@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+	<!-- <event name="sales_order_invoice_pay">
+		<observer name="webpos_sales_order_invoice_pay" instance="Chopserve\CustomShippig\Observer\SalesOrderInvoicePay" />
+	</event> -->
+</config>

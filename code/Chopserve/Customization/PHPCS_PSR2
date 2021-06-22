@@ -1,0 +1,52 @@
+
+FILE: ...mc\var\umc\Chopserve_SourceMapping\Block\Mapping\ListMapping.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 64 | WARNING | Method name "_prepareLayout" should not be prefixed
+    |         | with an underscore to indicate visibility
+----------------------------------------------------------------------
+
+
+FILE: ...htdocs\mmc\umc\var\umc\Chopserve_SourceMapping\Model\Mapping.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 4 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 25 | WARNING | Property name "$_cacheTag" should not be prefixed
+    |         | with an underscore to indicate visibility
+ 31 | WARNING | Property name "$_eventPrefix" should not be prefixed
+    |         | with an underscore to indicate visibility
+ 37 | WARNING | Property name "$_eventObject" should not be prefixed
+    |         | with an underscore to indicate visibility
+ 43 | WARNING | Method name "_construct" should not be prefixed with
+    |         | an underscore to indicate visibility
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Model\ResourceModel\Mapping\Collection.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 18 | WARNING | Method name "_construct" should not be prefixed with
+    |         | an underscore to indicate visibility
+----------------------------------------------------------------------
+
+
+FILE: ...\var\umc\Chopserve_SourceMapping\Model\ResourceModel\Mapping.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 11 | WARNING | Method name "_construct" should not be prefixed with
+    |         | an underscore to indicate visibility
+----------------------------------------------------------------------
+
+
+FILE: ...rve_SourceMapping\Ui\Component\Listing\Column\MappingActions.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 79 | WARNING | Line exceeds 120 characters; contains 133 characters
+----------------------------------------------------------------------
+
+Time: 283ms; Memory: 8MB
+

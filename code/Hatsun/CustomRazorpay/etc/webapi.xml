@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/save-custom-razorpay" method="POST">
+        <service class="Hatsun\CustomRazorpay\Api\CustomeRazorpayPaymentRepositoryInterface" method="saveObject"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <!-- fetch orders -->
+    <route url="/V1/razorpay-apis" method="POST">
+        <service class="Hatsun\CustomRazorpay\Api\CustomeRazorpayPaymentRepositoryInterface" method="razorpayApis"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+   <!-- refund -->
+   	<route url="/V1/refunds" method="POST">
+        <service class="Hatsun\CustomRazorpay\Api\CustomeRazorpayPaymentRepositoryInterface" method="refunds"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+	<!-- route amount -->
+    <route url="/V1/routes" method="POST">
+        <service class="Hatsun\CustomRazorpay\Api\CustomeRazorpayPaymentRepositoryInterface" method="routes"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    </routes>

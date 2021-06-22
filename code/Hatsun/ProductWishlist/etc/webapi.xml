@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/wishlist/items/:customerId" method="GET">
+        <service class="Hatsun\ProductWishlist\Api\WishlistManagementInterface" method="getWishlistForCustomer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+        <!-- <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data> -->
+    </route>
+    <route url="/V1/wishlist/add" method="POST">
+        <service class="Hatsun\ProductWishlist\Api\WishlistManagementInterface" method="addWishlistForCustomer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+        <!-- <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data> -->
+    </route>
+    <route url="/V1/wishlist/delete" method="DELETE">
+        <service class="Hatsun\ProductWishlist\Api\WishlistManagementInterface" method="deleteWishlistForCustomer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+    <route url="/V1/wishlist/delete/all" method="POST">
+        <service class="Hatsun\ProductWishlist\Api\WishlistManagementInterface" method="clearAllWishlist"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+        
+</routes>

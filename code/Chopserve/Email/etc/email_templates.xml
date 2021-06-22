@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd"> 
+	<template id="my_custom_email_template" label="Custom Email" file="custom.html" type="html" module="Chopserve_Email" area="frontend"/> 
+	<template id="customer_email_chopserve" label="Customer Email" file="customer.html" type="html" module="Chopserve_Email" area="frontend"/>
+	<template id="cancel_email_template" label="Cancel Email" file="cancel.html" type="html" module="Chopserve_Email" area="frontend"/>
+	<template id="storepickup" label="Store Pickup" file="storepickup.html" type="html" module="Chopserve_Email" area="frontend"/>
+	<template id="storeownermail" label="Store Order Notif" file="storeownermail.html" type="html" module="Chopserve_Email" area="frontend"/>
+</config>

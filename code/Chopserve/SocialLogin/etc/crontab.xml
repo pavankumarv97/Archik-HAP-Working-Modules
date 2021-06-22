@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+    <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+        <group id="email_cron">
+            <job instance="Chopserve\SocialLogin\Cron\Reminder" method="execute" name="chopserve_sociallogin_cron">
+                <schedule>*/2 * * * *</schedule> <!-- here you need to schedule time to run cron job -->
+            </job>
+        </group>
+    </config>

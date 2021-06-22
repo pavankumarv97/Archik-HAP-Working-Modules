@@ -1,0 +1,18 @@
+<h1><?php echo __('This is an example module123!') ?></h1>
+<?php 
+$customerId = 2;
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$customerObj = $objectManager->create('Magento\Customer\Model\Customer')->load($customerId);
+$customerAddress = array();
+print_r($customerObj);
+
+foreach ($customerObj->getAddresses() as $address)
+{
+    $customerAddress[] = $address->toArray();
+}
+
+foreach ($customerAddress as $customerAddres) {
+
+    echo $customerAddres['street'];
+    echo $customerAddres['city'];
+}

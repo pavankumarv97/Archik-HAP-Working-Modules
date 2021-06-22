@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<routes>
+    <route url="/V1/customers/orderId" method="GET">
+        <service class="Chopserve\PaymentOrderId\Api\RazorpayOrderRepositoryInterface" method="getOrderId"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+	<route url="/V1/customers/balance" method="POST">
+        <service class="Chopserve\PaymentOrderId\Api\RazorpayOrderRepositoryInterface" method="createOrder"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+    </route>
+
+</routes>

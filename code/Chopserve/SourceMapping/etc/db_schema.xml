@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="chopserve_source_mapping_mapping" resource="default" engine="innodb" comment="Source Mapping Table">
+        <column xsi:type="smallint" name="mapping_id" padding="6" unsigned="false" nullable="false" identity="true"  comment="Source Mapping ID"/>
+        <column xsi:type="varchar" name="source_pincode" length="255" nullable="false" comment="Source Mapping Source Pincode"/>
+        <column xsi:type="text" name="pincodes" nullable="false" comment="Source Mapping Pincodes"/>
+        <column xsi:type="smallint" name="is_active" padding="6" unsigned="false" nullable="false" identity="false" default="1" comment="Source Mapping Is Active"/>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP" comment="Source Mapping Created at"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP" comment="Source Mapping Updated At"/>
+        <index referenceId="CHOPSERVE_SOURCE_MAPPING_MAPPING_FULLTEXT" indexType="fulltext">
+            <column name="source_pincode" />
+            <column name="pincodes" />
+        </index>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="mapping_id"/>
+        </constraint>
+    </table>
+</schema>

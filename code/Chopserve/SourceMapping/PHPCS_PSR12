@@ -1,0 +1,489 @@
+
+FILE: ...mc\var\umc\Chopserve_SourceMapping\Api\Data\MappingInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 6 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank
+    |         |     line
+  9 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 10 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 11 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 15 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 19 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 23 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...hopserve_SourceMapping\Api\Data\MappingSearchResultInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mc\umc\var\umc\Chopserve_SourceMapping\Api\ExecutorInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r\umc\Chopserve_SourceMapping\Api\MappingRepositoryInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\var\umc\Chopserve_SourceMapping\Block\Adminhtml\Button\Back.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...hopserve_SourceMapping\Block\Adminhtml\Button\Mapping\Delete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...var\umc\Chopserve_SourceMapping\Block\Adminhtml\Button\Reset.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\var\umc\Chopserve_SourceMapping\Block\Adminhtml\Button\Save.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Block\Adminhtml\Button\SaveAndContinue.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mc\var\umc\Chopserve_SourceMapping\Block\Mapping\ListMapping.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 64 | ERROR | Method name "_prepareLayout" must not be prefixed with
+    |       | an underscore to indicate visibility
+----------------------------------------------------------------------
+
+
+FILE: ...\Chopserve_SourceMapping\Controller\Adminhtml\AbstractDelete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...c\Chopserve_SourceMapping\Controller\Adminhtml\AbstractIndex.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...pserve_SourceMapping\Controller\Adminhtml\AbstractMassAction.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Controller\Adminhtml\AbstractNewAction.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\Chopserve_SourceMapping\Controller\Adminhtml\Mapping\Delete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mc\Chopserve_SourceMapping\Controller\Adminhtml\Mapping\Edit.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...c\Chopserve_SourceMapping\Controller\Adminhtml\Mapping\Index.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...pserve_SourceMapping\Controller\Adminhtml\Mapping\InlineEdit.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...pserve_SourceMapping\Controller\Adminhtml\Mapping\MassDelete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Controller\Adminhtml\Mapping\NewAction.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mc\Chopserve_SourceMapping\Controller\Adminhtml\Mapping\Save.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...umc\var\umc\Chopserve_SourceMapping\Controller\Mapping\Index.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank
+    |         |     line
+ 15 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\umc\var\umc\Chopserve_SourceMapping\Controller\Mapping\View.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank
+    |         |     line
+ 20 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...umc\Chopserve_SourceMapping\Model\Mapping\CollectionProvider.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...c\var\umc\Chopserve_SourceMapping\Model\Mapping\DataProvider.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ar\umc\Chopserve_SourceMapping\Model\Mapping\Executor\Delete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...htdocs\mmc\umc\var\umc\Chopserve_SourceMapping\Model\Mapping.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 4 WARNINGS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank
+    |         |     line
+ 19 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 25 | WARNING | [ ] Property name "$_cacheTag" should not be prefixed
+    |         |     with an underscore to indicate visibility
+ 31 | WARNING | [ ] Property name "$_eventPrefix" should not be
+    |         |     prefixed with an underscore to indicate
+    |         |     visibility
+ 37 | WARNING | [ ] Property name "$_eventObject" should not be
+    |         |     prefixed with an underscore to indicate
+    |         |     visibility
+ 43 | ERROR   | [ ] Method name "_construct" must not be prefixed
+    |         |     with an underscore to indicate visibility
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\umc\var\umc\Chopserve_SourceMapping\Model\MappingRepository.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Model\ResourceModel\AbstractCollection.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mc\Chopserve_SourceMapping\Model\ResourceModel\AbstractModel.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...opserve_SourceMapping\Model\ResourceModel\Mapping\Collection.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank
+    |       |     line
+ 18 | ERROR | [ ] Method name "_construct" must not be prefixed with
+    |       |     an underscore to indicate visibility
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\var\umc\Chopserve_SourceMapping\Model\ResourceModel\Mapping.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank
+    |       |     line
+ 11 | ERROR | [ ] Method name "_construct" must not be prefixed with
+    |       |     an underscore to indicate visibility
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...mmc\umc\var\umc\Chopserve_SourceMapping\Model\Search\Mapping.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\htdocs\mmc\umc\var\umc\Chopserve_SourceMapping\registration.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...docs\mmc\umc\var\umc\Chopserve_SourceMapping\Setup\Uninstall.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...eMapping\Test\Unit\Block\Adminhtml\Button\Mapping\DeleteTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...rceMapping\Test\Unit\Controller\Adminhtml\Mapping\DeleteTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ourceMapping\Test\Unit\Controller\Adminhtml\Mapping\EditTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ve_SourceMapping\Test\Unit\Model\Mapping\Executor\DeleteTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...rve_SourceMapping\Ui\Component\Listing\Column\MappingActions.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 3 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank
+    |         |     line
+ 15 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 21 | WARNING | [ ] Visibility must be declared on all constants if
+    |         |     your project supports PHP 7.1 or later
+ 79 | WARNING | [ ] Line exceeds 120 characters; contains 133
+    |         |     characters
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...pserve_SourceMapping\Ui\Provider\CollectionProviderInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank
+   |       |     line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 417ms; Memory: 8MB
+

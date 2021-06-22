@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   X247commerce
+ * @package    Chopserve_Email
+ * @author     jafarp26@gmail.com
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="chopserve_email" frontName="chopserve_email">
+            <module name="Chopserve_Email" />
+        </route>
+    </router>
+</config>

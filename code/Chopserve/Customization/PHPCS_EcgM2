@@ -1,0 +1,10 @@
+
+FILE: ...docs\mmc\umc\var\umc\Chopserve_SourceMapping\Setup\Uninstall.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 29 | WARNING | The method parameter $context is never used
+----------------------------------------------------------------------
+
+Time: 2.56 secs; Memory: 6MB
+

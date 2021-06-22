@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">chopserve_sourcemapping_mapping_form.mapping_form_data_source</item>
+        </item>
+        <item name="label" xsi:type="string" translate="true">Source Mapping Information</item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+    </argument>
+    <settings>
+        <buttons>
+            <button name="back" class="Chopserve\SourceMapping\Block\Adminhtml\Button\Back"/>
+            <button name="delete" class="Chopserve\SourceMapping\Block\Adminhtml\Button\Mapping\Delete"/>
+            <button name="reset" class="Chopserve\SourceMapping\Block\Adminhtml\Button\Reset"/>
+            <button name="save" class="Chopserve\SourceMapping\Block\Adminhtml\Button\Save"/>
+            <button name="save_and_continue" class="Chopserve\SourceMapping\Block\Adminhtml\Button\SaveAndContinue"/>
+        </buttons>
+        <namespace>chopserve_source_mapping_mapping_form</namespace>
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>chopserve_sourcemapping_mapping_form.mapping_form_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="mapping_form_data_source">
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <settings>
+            <submitUrl path="chopserve_sourcemapping/mapping/save"/>
+        </settings>
+        <dataProvider class="Chopserve\SourceMapping\Model\Mapping\DataProvider" name="mapping_form_data_source">
+            <settings>
+                <requestFieldName>mapping_id</requestFieldName>
+                <primaryFieldName>mapping_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+    <fieldset name="general">
+        <settings>
+            <label translate="true">Source Mapping Information</label>
+        </settings>
+        <field name="mapping_id" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">mapping</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <visible>false</visible>
+                <dataScope>mapping_id</dataScope>
+            </settings>
+        </field>
+        <field name="is_active" formElement="checkbox">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">is_active</item>
+                    <item name="default" xsi:type="string">1</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <label translate="true">Is Active</label>
+                <dataScope>is_active</dataScope>
+            </settings>
+            <formElements>
+                <checkbox>
+                    <settings>
+                        <valueMap>
+                            <map name="false" xsi:type="number">0</map>
+                            <map name="true" xsi:type="number">1</map>
+                        </valueMap>
+                        <prefer>toggle</prefer>
+                    </settings>
+                </checkbox>
+            </formElements>
+        </field>
+        <field name="source_pincode" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">mapping</item>
+                </item>
+            </argument>
+            <settings>
+                <validation>
+                    <rule name="required-entry" xsi:type="boolean">true</rule>
+                </validation>
+                <dataType>text</dataType>
+                <label translate="true">Source Pincode</label>
+                <dataScope>source_pincode</dataScope>
+            </settings>
+        </field>
+
+        <field name="pincodes" formElement="textarea">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">mapping</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <label translate="true">Pincodes</label>
+                <dataScope>pincodes</dataScope>
+                <validation>
+                    <rule name="required-entry" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+
+    </fieldset>
+</form>

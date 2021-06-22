@@ -1,0 +1,17 @@
+<?php
+/** @var \Chopserve\SourceMapping\Block\Mapping\ViewMapping $block */
+?>
+<?php $mapping = $block->getCurrentMapping();?>
+<div class="mapping-view">
+    <div class="mapping-source-pincode">
+        <strong><?= $block->escapeHtml(__('Source Pincode')) ?></strong>:
+        <?= $block->escapeHtml($mapping->getSourcePincode());?>
+    </div>
+    <?php if ($pincodes = $mapping->getPincodes()) :?>
+    <div class="mapping-pincodes">
+        <strong><?= $block->escapeHtml(__('Pincodes')) ?></strong>:
+        <?= $block->escapeHtml($pincodes);?>
+    </div>
+    <?php endif;?>
+
+</div>

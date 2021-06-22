@@ -1,0 +1,22 @@
+{
+    "name": "chopserve/module-addressmap",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "jafarp26@gmail.com",
+            "name": "Jafar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Chopserve\\AddressMap\\": ""
+        }
+    }
+}

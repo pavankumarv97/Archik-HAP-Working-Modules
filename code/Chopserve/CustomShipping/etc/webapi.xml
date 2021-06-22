@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<routes>
+    <route url="/V1/invoiceDetail" method="GET">
+        <service class="Chopserve\CustomShipping\Api\ShippingDetailInterface" method="getdetails"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+</routes>

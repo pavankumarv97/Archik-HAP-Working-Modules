@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="dunzo_info" resource="default" engine="innodb" comment="Dunzo Info">
+        <column xsi:type="smallint" name="id" padding="6" unsigned="false" nullable="false" identity="true" comment="ID"/>        
+        <column xsi:type="varchar" name="order_id" nullable="false" length="255"  comment="Order Id"/>
+		<column xsi:type="varchar" name="tracking_id" nullable="false" length="255" comment="Tracking Id"/>
+        <column xsi:type="varchar" name="dunzo_task_id" nullable="false" length="200" comment="Dunzo Task ID"/>
+        <column xsi:type="varchar" name="customer_id" nullable="false" length="200" comment="Customer ID"/>
+        <column xsi:type="varchar" name="dunzo_amount" nullable="false" length="200" comment="Dunzo Amount"/>
+        <column xsi:type="varchar" name="dunzo_status" nullable="false" length="200" comment="Dunzo Status"/>
+        <column xsi:type="timestamp" name="created_at" nullable="false" default="CURRENT_TIMESTAMP" on_update="false" comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at" nullable="false" default="CURRENT_TIMESTAMP" on_update="true" comment="Updated At"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>

@@ -1,0 +1,27 @@
+<?php
+/** @var \Chopserve\SourceMapping\Block\Mapping\ListMapping $block */
+?>
+<?php $mappings = $block->getMappings();?>
+<?php if ($mappings->getSize()) : ?>
+<div class="mapping-toolbar toolbar top"><?php echo $block->getPagerHtml(); ?></div>
+<div class="mapping-list">
+    <?php foreach ($mappings as $mapping) : ?>
+        <div class="mapping-item">
+            <div class="mapping-source-pincode">
+                <a href="<?= $block->escapeUrl($block->getMappingUrl($mapping));?>">
+                    <?= $block->escapeHtml($mapping->getSourcePincode());?>
+                </a>
+            </div>
+            <?php if ($pincodes = $mapping->getPincodes()) :?>
+            <div class="mapping-pincodes">
+                <strong><?= $block->escapeHtml(__('Pincodes')) ?></strong>:
+                <?= $block->escapeHtml($pincodes);?>
+            </div>
+            <?php endif;?>
+
+        </div>
+    <?php endforeach; ?>
+    <div class="mapping-toolbar toolbar bottom"><?php echo $block->getPagerHtml(); ?></div>
+<?php else : ?>
+    <?= $block->escapeHtml(__('There are no Source Mapping at this moment')); ?>
+<?php endif;?>

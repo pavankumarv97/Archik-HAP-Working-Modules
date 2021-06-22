@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Chopserve\SourceMapping\Controller\Adminhtml\Mapping\Index">
+        <arguments>
+            <argument name="activeMenuItem" xsi:type="string">Chopserve_SourceMapping::sourcemapping_mapping</argument>
+            <argument name="pageTitle" xsi:type="string" translate="true">Source Mapping</argument>
+        </arguments>
+    </type>
+    <type name="Chopserve\SourceMapping\Controller\Adminhtml\Mapping\MassDelete">
+        <arguments>
+            <argument name="collectionProvider" xsi:type="object">Chopserve\SourceMapping\Model\Mapping\CollectionProvider</argument>
+            <argument name="executor" xsi:type="object">Chopserve\SourceMapping\Model\Mapping\Executor\Delete</argument>
+            <argument name="successMessage" xsi:type="string">A total of %1 Source Mapping have been deleted.</argument>
+            <argument name="errorMessage" xsi:type="string" translate="true">An error occurred while deleting Source Mapping.</argument>
+        </arguments>
+    </type>
+    <type name="Chopserve\SourceMapping\Controller\Adminhtml\Mapping\Delete">
+        <arguments>
+            <argument name="executor" xsi:type="object">Chopserve\SourceMapping\Model\Mapping\Executor\Delete</argument>
+            <argument name="paramName" xsi:type="string">mapping_id</argument>
+            <argument name="successMessage" xsi:type="string" translate="true">Source Mapping was deleted</argument>
+            <argument name="missingEntityErrorMessage" xsi:type="string" translate="true">Requested Source Mapping for delete does not exist.</argument>
+            <argument name="generalErrorMessage" xsi:type="string" translate="true">There was a problem deleting the Source Mapping</argument>
+        </arguments>
+    </type>
+    <type name="Magento\Backend\Block\GlobalSearch">
+        <arguments>
+            <argument name="entityResources" xsi:type="array">
+                <item name="Chopserve Source Mapping" xsi:type="string">Chopserve_SourceMapping::sourcemapping_mapping</item>
+            </argument>
+            <argument name="entityPaths" xsi:type="array">
+                <item name="Chopserve Source Mapping" xsi:type="string">chopserve_sourcemapping/Mapping/index</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

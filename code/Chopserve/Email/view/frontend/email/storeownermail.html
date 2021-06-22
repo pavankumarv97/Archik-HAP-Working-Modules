@@ -1,0 +1,20 @@
+<!--@subject Order Notification  @-->
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p>
+                {{trans "You got a new order placed in your store." pincode=$pincode}}
+                {{trans 'For more information check your <a href="%account_url">dashboard </a>.' account_url=$this.getUrl($store,'admin_prod/sales/order/',[_nosid:1]) |raw}}
+            </p>
+        </td>
+    </tr>
+ 
+            </table>
+            {{layout handle="sales_email_order_items" order=$order area="frontend"}}
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}

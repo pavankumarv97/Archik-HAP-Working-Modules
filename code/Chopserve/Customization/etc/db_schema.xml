@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="chopserve_customization" resource="default" engine="innodb" comment="Customization Table">
+        <column xsi:type="int" name="id" padding="6" unsigned="false" nullable="false" identity="true"  comment="ID"/>
+		 <column xsi:type="varchar" name="customization_id" length="255" nullable="false" comment="Customization ID"/>
+        <column xsi:type="varchar" name="customization" length="255" nullable="true" comment="Customization Data"/>
+        <!-- <index referenceId="CHOPSERVE_CUSTOMIZATION_FULLTEXT" indexType="fulltext">
+            <column name="customization" />
+        </index> -->
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>

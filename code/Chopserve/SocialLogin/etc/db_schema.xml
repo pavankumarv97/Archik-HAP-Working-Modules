@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+ 1. source code - sales order grid, stores inventory, users
+2. account id - stores inventory,
+3. store id - customer lat & long
+4. is guest - customer
+5. fcmkey - customer
+6. amount - custom razorpay
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order_grid" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="source_code" nullable="false" length="200" comment="Source Code"/>
+        <column xsi:type="int" name="is_notified" comment="Is Notified"/>
+        <column xsi:type="varchar" name="dunzo_delivery_fee" nullable="false" length="200" comment="Dunzo Delivery Fee"/>
+    </table>
+    <table name="sales_order" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="source_code" nullable="false" length="200" comment="Source Code"/>
+        <column xsi:type="int" name="is_notified" comment="Is Notified"/>
+        <column xsi:type="varchar" name="dunzo_delivery_fee" nullable="false" length="200" comment="Dunzo Delivery Fee"/>
+    </table>
+
+    <table name="inventory_source" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="account_id" nullable="false" length="200" comment="Account Id"/>
+    </table>
+    <table name="custome_latitude_longitude" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="storeId" nullable="false" length="200" comment="Store Id"/>
+        <column xsi:type="varchar" name="is_checkout" nullable="false" length="200" comment="is_checkout"/>
+    </table>
+    <table name="admin_user" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="source_code" nullable="false" length="100" comment="Source Code"/>
+    </table>
+    <table name="customer_grid_flat" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="phone_number" nullable="false" length="200" comment="Phone Number"/>
+    </table>
+</schema>

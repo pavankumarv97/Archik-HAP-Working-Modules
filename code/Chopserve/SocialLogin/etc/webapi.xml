@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<routes>
+    <route url="/V1/sociallogin/getcredentials" method="GET">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sociallogin/userinfo" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="userinfo"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sociallogin/guestcheckout" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="guestcheckout"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sociallogin/checkmail" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="checkmail"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/customer/gettoken" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="getCustomerToken"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+     <route url="/V1/getstores/info" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="getStoresInfo"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/getstoreproducts" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="getStoreProducts"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/guest-customer-create" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="createGuestCustomer"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/setsource" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="setSource" />
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>  
+    <route url="/V1/savefcm" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="savefcm"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sendNotification" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="sendNotification"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/get-time-to-cancel" method="GET">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="getTimeToCancel"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sendmailtousers" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="sendMailToUsers"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/sendsms" method="POST">
+        <service class="Chopserve\SocialLogin\Api\SocialLoginRepositoryInterface" method="sendsms"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

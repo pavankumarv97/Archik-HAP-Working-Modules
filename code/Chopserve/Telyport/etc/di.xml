@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Chopserve\Telyport\Api\GetTelyportManagementInterface" type="Chopserve\Telyport\Model\GetTelyportManagement"/>
+	<preference for="Chopserve\Telyport\Api\TelyportApiManagementInterface" type="Chopserve\Telyport\Model\TelyportApiManagement"/>
+	<!-- <type name="Magento\Sales\Api\OrderRepositoryInterface">
+        <plugin name="order_state_plugin"
+                type="Chopserve\Telyport\Model\Plugin\OrderStatePlugin"/>
+    </type> -->
+</config>

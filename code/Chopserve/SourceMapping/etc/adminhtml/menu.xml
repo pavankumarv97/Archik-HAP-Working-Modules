@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Chopserve_SourceMapping::sourcemapping"
+             title="Hatsun"
+             module="Chopserve_SourceMapping"
+             sortOrder="10"
+             resource="Chopserve_SourceMapping::sourcemapping"
+              />
+        <add id="Chopserve_SourceMapping::sourcemapping_mapping"
+             title="Source Mapping"
+             module="Chopserve_SourceMapping"
+             sortOrder="10"
+             action="chopserve_sourcemapping/mapping"
+             resource="Chopserve_SourceMapping::sourcemapping_mapping"
+             parent="Chopserve_SourceMapping::sourcemapping"
+        />
+    </menu>
+</config>
